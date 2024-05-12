@@ -108,7 +108,7 @@ class SpaceScene extends Phaser.Scene
 		this.bg.tilePositionY += this.scrollTotal;
 		
 		//reset highscore
-		this.saveHighscore(0);
+		//this.saveHighscore(0);
 
 		this.highScore = this.loadHighscore();
 
